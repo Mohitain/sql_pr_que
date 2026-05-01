@@ -1,4 +1,4 @@
-/*
+
 select * from information_schema.tables where table_schema='public'; -- Query to check the list of all tables in your schema in PostgreSQL database.
 
 select count(1) from STAFF; -- 23
@@ -21,7 +21,6 @@ select * from students;
 select * from parents;
 select * from student_classes;
 select * from student_parent;
-*/
 
 -- Dropping tables...
 DROP TABLE IF EXISTS STUDENT_CLASSES CASCADE;
